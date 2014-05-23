@@ -20,7 +20,7 @@ import Data.Time.Units
 
 fromGregorian :: Year y -> Month mo -> Day d -> C.Day
 -- | fromGregorian is a wrapper for Data.Time.Calendar.fromGregorian, which
--- lets us pass our 'Year'-'Month'-'Day' structures. It calls
+-- lets us pass our 'Year' - 'Month' - 'Day' structures. It calls
 -- Data.Time.Calendar.fromGregorian with the appropriate types, and returns
 -- a Data.Time.Calendar.Day.
 fromGregorian y mo s = C.fromGregorian (timeVal y) (timeVal mo) (timeVal s)
