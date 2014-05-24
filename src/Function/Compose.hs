@@ -7,6 +7,8 @@ License     :  GPL-3
 Maintainer  :  plailude@plaimi.net
 -} module Function.Compose where
 
+-- (.) :: (b -> c) -> (a -> b) -> a -> c
+-- (f . g) x = f (g x)
 
 (.:) :: (c -> d) -> (a -> b -> c) -> a -> b -> d
 -- | Compose two functions where the second function takes two values and
