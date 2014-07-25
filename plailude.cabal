@@ -27,7 +27,11 @@ library
                        Data.Time.Units
                        Function
                        Function.Compose
+                       Text
+                       Text.Show
   other-extensions:    GeneralizedNewtypeDeriving
-  build-depends:       base >=4.6 && <4.7, time >=1.4 && <1.5
+  build-depends:       base >=4.6 && <4.7,
+                       bytestring >=0.10 && <0.11,
+                       time >=1.4 && <1.5
   hs-source-dirs:      src
   default-language:    Haskell2010
