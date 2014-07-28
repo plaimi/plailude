@@ -9,6 +9,8 @@ Maintainer  :  plailude@plaimi.net
   -- Function
   (.:),
   (.:.),
+  -- Text
+  showL8,
   -- Data.Time
   Hour   (MkHour),
   Minute (MkMinute),
@@ -19,8 +21,9 @@ Maintainer  :  plailude@plaimi.net
   TimeUnit,
   asSeconds,
   fromGregorian,
-  timeVal
+  timeVal,
 ) where
 
+import Data.Text
 import Data.Time
 import Function
