@@ -5,8 +5,8 @@ Copyright   :  (c) plaimi 2014
 License     :  GPL-3
 
 Maintainer  :  plailude@plaimi.net
--} module Text (
+-} module Data.Text (
   showL8
   ) where
 
-import Text.Show
+import Data.Text.Show

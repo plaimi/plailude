@@ -5,7 +5,7 @@ Copyright   :  (c) plaimi 2014
 License     :  GPL-3
 
 Maintainer  :  plailude@plaimi.net
--} module Text.Show where
+-} module Data.Text.Show where
 
 import qualified Data.ByteString.Lazy as L
 import qualified Data.ByteString.Lazy.Char8 as L8
