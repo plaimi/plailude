@@ -1,3 +1,7 @@
+0.2.2
+=====
+Relax base dependency to <4.8.
+
 0.2.1
 =====
 Make Text part of Data -- Data.Text
