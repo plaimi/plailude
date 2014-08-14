@@ -16,7 +16,7 @@ Maintainer  :  plailude@plaimi.net
 class TimeUnit t where
   -- | Get out the value in a 'TimeUnit'. The value's type is
   -- polymorphic and constrained to 'Num'.
-  timeVal :: (TimeUnit t, Num n) => t -> n
+  timeVal :: Num n => t -> n
 
 instance TimeUnit Int where
   -- | The value of a 'TimeUnit' 'Int' is simply the 'Int' value.
