@@ -7,7 +7,7 @@ License     :  GPL-3
 Maintainer  :  plailude@plaimi.net
 -} module Plailude.Function (
   (.:),
-  (.:.)
+  (.:.),
   ) where
 
 import Plailude.Function.Compose

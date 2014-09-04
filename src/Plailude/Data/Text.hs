@@ -6,7 +6,7 @@ License     :  GPL-3
 
 Maintainer  :  plailude@plaimi.net
 -} module Plailude.Data.Text (
-  showL8
+  showL8,
   ) where
 
 import Plailude.Data.Text.Show

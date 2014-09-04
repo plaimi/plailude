@@ -17,7 +17,7 @@ Maintainer  :  plailude@plaimi.net
   Day    (MkDay),
   Hour   (MkHour),
   Minute (MkMinute),
-  Second (MkSecond)
+  Second (MkSecond),
   ) where
 
 import Plailude.Data.Time.Conversion
