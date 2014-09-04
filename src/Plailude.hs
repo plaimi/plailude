@@ -24,6 +24,6 @@ Maintainer  :  plailude@plaimi.net
   timeVal,
 ) where
 
-import Data.Text
-import Data.Time
-import Function
+import Plailude.Data.Text
+import Plailude.Data.Time
+import Plailude.Function

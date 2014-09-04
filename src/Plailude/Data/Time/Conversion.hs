@@ -5,11 +5,11 @@ Copyright   :  (c) plaimi 2014
 License     :  GPL-3
 
 Maintainer  :  plailude@plaimi.net
--} module Data.Time.Conversion where
+-} module Plailude.Data.Time.Conversion where
 
 import qualified Data.Time.Calendar as C
 
-import Data.Time.Units
+import Plailude.Data.Time.Units
   (Day
   ,Hour
   ,Minute

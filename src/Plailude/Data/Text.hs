@@ -1,13 +1,12 @@
 {- |
 Module      :  $Header$
-Description :  Function functions.
+Description :  Text manipulation.
 Copyright   :  (c) plaimi 2014
 License     :  GPL-3
 
 Maintainer  :  plailude@plaimi.net
--} module Function (
-  (.:),
-  (.:.)
+-} module Plailude.Data.Text (
+  showL8
   ) where
 
-import Function.Compose
+import Plailude.Data.Text.Show

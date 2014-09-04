@@ -5,7 +5,7 @@ Copyright   :  (c) plaimi 2014
 License     :  GPL-3
 
 Maintainer  :  plailude@plaimi.net
--} module Function.Compose where
+-} module Plailude.Function.Compose where
 
 -- (.) :: (b -> c) -> (a -> b) -> a -> c
 -- (f . g) x = f (g x)

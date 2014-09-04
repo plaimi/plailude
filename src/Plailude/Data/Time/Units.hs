@@ -7,7 +7,7 @@ Copyright   :  (c) plaimi 2014
 License     :  GPL-3
 
 Maintainer  :  plailude@plaimi.net
--} module Data.Time.Units where
+-} module Plailude.Data.Time.Units where
 
 -- | 'TimeUnit's are units of time with a value that's an instance of 'Num'.
 -- The class is used to get type safety of time units, and a function for

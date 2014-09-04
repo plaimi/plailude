@@ -22,13 +22,13 @@ source-repository head
 
 library
   exposed-modules:     Plailude
-  other-modules:       Data.Text
-                       Data.Text.Show
-                       Data.Time
-                       Data.Time.Conversion
-                       Data.Time.Units
-                       Function
-                       Function.Compose
+  other-modules:       Plailude.Data.Text
+                       Plailude.Data.Text.Show
+                       Plailude.Data.Time
+                       Plailude.Data.Time.Conversion
+                       Plailude.Data.Time.Units
+                       Plailude.Function
+                       Plailude.Function.Compose
   other-extensions:    GeneralizedNewtypeDeriving
   build-depends:       base >=4.6 && <4.8,
                        bytestring >=0.10 && <0.11,

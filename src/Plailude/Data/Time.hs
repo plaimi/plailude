@@ -5,7 +5,7 @@ Copyright   :  (c) plaimi 2014
 License     :  GPL-3
 
 Maintainer  :  plailude@plaimi.net
--} module Data.Time (
+-} module Plailude.Data.Time (
   -- Time.Conversion
   asSeconds,
   fromGregorian,
@@ -20,5 +20,5 @@ Maintainer  :  plailude@plaimi.net
   Second (MkSecond)
   ) where
 
-import Data.Time.Conversion
-import Data.Time.Units
+import Plailude.Data.Time.Conversion
+import Plailude.Data.Time.Units
