@@ -25,7 +25,7 @@ Maintainer  :  plailude@plaimi.net
   asSeconds,
   fromGregorian,
   timeVal,
-) where
+  ) where
 
 import Plailude.Control
 import Plailude.Data.Text

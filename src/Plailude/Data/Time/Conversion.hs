@@ -10,13 +10,15 @@ Maintainer  :  plailude@plaimi.net
 import qualified Data.Time.Calendar as C
 
 import Plailude.Data.Time.Units
-  (Day
-  ,Hour
-  ,Minute
-  ,Month
-  ,Second (MkSecond)
-  ,Year
-  ,timeVal)
+  (
+  Day,
+  Hour,
+  Minute,
+  Month,
+  Second (MkSecond),
+  Year,
+  timeVal,
+  )
 
 fromGregorian :: Year y -> Month mo -> Day d -> C.Day
 -- | fromGregorian is a wrapper for Data.Time.Calendar.fromGregorian, which
