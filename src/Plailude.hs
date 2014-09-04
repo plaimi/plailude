@@ -6,6 +6,9 @@ License     :  GPL-3
 
 Maintainer  :  plailude@plaimi.net
 -} module Plailude (
+  -- Control
+  erretreat,
+  retreat,
   -- Function
   (.:),
   (.:.),
@@ -24,6 +27,7 @@ Maintainer  :  plailude@plaimi.net
   timeVal,
 ) where
 
+import Plailude.Control
 import Plailude.Data.Text
 import Plailude.Data.Time
 import Plailude.Function
