@@ -7,6 +7,7 @@ License     :  GPL-3
 Maintainer  :  plailude@plaimi.net
 -} module Plailude (
   -- Control
+  both,
   erretreat,
   retreat,
   -- Function
