@@ -23,6 +23,7 @@ source-repository head
 library
   exposed-modules:     Plailude
   other-modules:       Plailude.Control
+                       Plailude.Control.Arrow
                        Plailude.Control.Monad
                        Plailude.Data.Text
                        Plailude.Data.Text.Show
