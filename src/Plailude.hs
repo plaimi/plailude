@@ -10,6 +10,9 @@ Maintainer  :  plailude@plaimi.net
   both,
   erretreat,
   retreat,
+  -- Bool
+  if',
+  fi,
   -- Function
   (.:),
   (.:.),
