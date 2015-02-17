@@ -25,6 +25,7 @@ library
   other-modules:       Plailude.Control
                        Plailude.Control.Arrow
                        Plailude.Control.Bool
+                       Plailude.Control.IO
                        Plailude.Control.Monad
                        Plailude.Data.Text
                        Plailude.Data.Text.Show
