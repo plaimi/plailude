@@ -6,6 +6,7 @@ License     :  GPL-3
 
 Maintainer  :  plailude@plaimi.net
 -} module Plailude.Control (
+  (!?),
   (~+~),
   both,
   erretreat,
@@ -17,4 +18,5 @@ Maintainer  :  plailude@plaimi.net
 import Plailude.Control.Arrow
 import Plailude.Control.Bool
 import Plailude.Control.IO
+import Plailude.Control.List
 import Plailude.Control.Monad

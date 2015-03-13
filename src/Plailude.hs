@@ -17,6 +17,8 @@ Maintainer  :  plailude@plaimi.net
   -- Function
   (.:),
   (.:.),
+  -- List
+  (!?),
   -- Text
   showL8,
   -- Data.Time

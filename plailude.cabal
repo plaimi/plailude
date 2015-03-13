@@ -26,6 +26,7 @@ library
                        Plailude.Control.Arrow
                        Plailude.Control.Bool
                        Plailude.Control.IO
+                       Plailude.Control.List
                        Plailude.Control.Monad
                        Plailude.Data.Text
                        Plailude.Data.Text.Show
